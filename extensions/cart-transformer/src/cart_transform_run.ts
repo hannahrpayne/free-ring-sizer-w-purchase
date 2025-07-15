@@ -209,16 +209,17 @@
 //   return { operations };
 // }
 
-import type {
-  CartTransformRunInput,
-  CartTransformRunResult,
-  Operation,
-} from "../generated/api";
 
-export function cartTransformRun(
-  input: CartTransformRunInput
-): CartTransformRunResult {
-  const operations: Operation[] = [];
+// import type {
+//   CartTransformRunInput,
+//   CartTransformRunResult,
+//   Operation,
+// } from "../generated/api";
+
+// export function cartTransformRun(
+//   input: CartTransformRunInput
+// ): CartTransformRunResult {
+//   const operations: Operation[] = [];
 
   // const TRIGGER_VARIANT_ID = "gid://shopify/ProductVariant/51663014559957";
   // const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/51663014527189";
@@ -262,7 +263,19 @@ export function cartTransformRun(
   // }
 
   // return { operations };
-  const TRIGGER_COLLECTION_ID = "gid://shopify/Collection/123456789"; // Replace with your collection GID
+
+
+import type {
+  CartTransformRunInput,
+  CartTransformRunResult,
+  Operation,
+} from "../generated/api";
+
+export function cartTransformRun(
+  input: CartTransformRunInput
+): CartTransformRunResult {
+  const operations: Operation[] = [];
+
 const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/51697474470101";
 
 let triggerQty = 0;
@@ -287,6 +300,7 @@ for (const line of input.cart.lines) {
       operations.push({
         lineUpdate: {
           cartLineId: line.id,
+          title: "Free Ring Sizing Kit (Free With Order)",
           price: {
             adjustment: {
               fixedPricePerUnit: {
