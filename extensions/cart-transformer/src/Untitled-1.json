@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 9016307974357,
+    "title": "Bundle Container",
+    "body_html": "",
+    "vendor": "hannahistesting",
+    "product_type": "",
+    "created_at": "2025-07-10T16:48:57-04:00",
+    "handle": "bundle-container-1",
+    "updated_at": "2025-07-10T16:49:02-04:00",
+    "published_at": "2025-07-10T16:48:58-04:00",
+    "template_suffix": "",
+    "published_scope": "global",
+    "tags": "",
+    "status": "active",
+    "admin_graphql_api_id": "gid://shopify/Product/9016307974357",
+    "variants": [
+      {
+        "id": 51687992426709,
+        "product_id": 9016307974357,
+        "title": "Default Title",
+        "price": "0.00",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2025-07-10T16:48:57-04:00",
+        "updated_at": "2025-07-10T16:48:57-04:00",
+        "taxable": true,
+        "barcode": "",
+        "fulfillment_service": "manual",
+        "grams": 0,
+        "inventory_management": "shopify",
+        "requires_shipping": true,
+        "sku": null,
+        "weight": 0.0,
+        "weight_unit": "lb",
+        "inventory_item_id": 53785806536917,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/51687992426709",
+        "image_id": null
+      }
+    ],
+    "options": [
+      {
+        "id": 11421119348949,
+        "product_id": 9016307974357,
+        "name": "Title",
+        "position": 1,
+        "values": ["Default Title"]
+      }
+    ],
+    "images": [],
+    "image": null
+  }
+}
