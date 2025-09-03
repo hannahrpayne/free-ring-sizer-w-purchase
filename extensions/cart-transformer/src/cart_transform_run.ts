@@ -9,7 +9,7 @@ export function cartTransformRun(
 ): CartTransformRunResult {
   const operations: Operation[] = [];
 
-const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/43178165534896";
+const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/44599391912112";
 
 let triggerQty = 0;
 
