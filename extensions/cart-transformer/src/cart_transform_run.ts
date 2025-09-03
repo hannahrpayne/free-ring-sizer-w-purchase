@@ -9,7 +9,7 @@ export function cartTransformRun(
 ): CartTransformRunResult {
   const operations: Operation[] = [];
 
-const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/44599391912112";
+const TARGET_VARIANT_ID = "gid://shopify/ProductVariant/7472425926832";
 
 let triggerQty = 0;
 
@@ -29,7 +29,7 @@ for (const line of input.cart.lines) {
     line.merchandise.__typename === "ProductVariant" &&
     line.merchandise.id === TARGET_VARIANT_ID
   ) {
-    if (line.quantity <= triggerQty) {
+    if (line.quantity <= (triggerQty + 1)) {
       operations.push({
         lineUpdate: {
           cartLineId: line.id,

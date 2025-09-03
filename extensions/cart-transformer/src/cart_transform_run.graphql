@@ -9,7 +9,7 @@ query CartTransformRunInput {
           id
           product {
             inAnyCollection(ids: [
-              "gid://shopify/Collection/324276715696",
+              "gid://shopify/Collection/324277207216",
             ])
           }
         }
