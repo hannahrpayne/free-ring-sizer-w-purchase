@@ -10,9 +10,9 @@ This function is triggered when the [Free Ring Sizing Kit](https://stagheaddesig
 Creates a function that automatically makes the "Free Ring Sizing Kit" product free when triggered, allowing it to be discounted to $0 without conflicting with other automatic/code discounts.
 
 ## Built With
--TypeScript
--JavaScript
--Shopify API
+- TypeScript
+- JavaScript
+- Shopify API
 
 
 ## Getting started
@@ -71,14 +71,6 @@ Using pnpm:
 pnpm run dev
 ```
 
-Open the URL generated in your console. Once you grant permission to the app, you can start development (such as generating extensions).
-
-## Developer resources
-
-- [Introduction to Shopify apps](https://shopify.dev/docs/apps/getting-started)
-- [App extensions](https://shopify.dev/docs/apps/build/app-extensions)
-- [Extension only apps](https://shopify.dev/docs/apps/build/app-extensions/build-extension-only-app)
-- [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
 
 ## Contact
 Hannah Payne - hannah.payne140@gmail.com
