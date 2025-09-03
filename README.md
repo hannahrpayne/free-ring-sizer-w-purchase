@@ -1,16 +1,19 @@
-# Shopify App Template - Extension only
+# Shopify Cart Transfrom App - Extension only
 
-This is a template for building an [extension-only Shopify app](https://shopify.dev/docs/apps/build/app-extensions/build-extension-only-app). It contains the basics for building a Shopify app that uses only app extensions.
+This is an extension based app with the prupose of transforming the cart when certain products are added. 
 
-This template doesn't include a server or the ability to embed a page in the Shopify Admin. If you want either of these capabilities, choose the [Remix app template](https://github.com/Shopify/shopify-app-template-remix) instead.
+This function is triggered when the [Free Ring Sizing Kit](https://stagheaddesigns.com/products/free-ring-sizing-kit) product is added to the cart with another product from the collection [Elligible For Free Ring Sizing Kit](https://stagheaddesigns.com/collections/elligible-for-free-ring-sizing-kit) pulled from the Shopify API.
 
-Whether you choose to use this template or another one, you can use your preferred package manager and the Shopify CLI with [these steps](#installing-the-template).
 
 ## Benefits
 
-Shopify apps are built on a variety of Shopify tools to create a great merchant experience. The [create an app](https://shopify.dev/docs/apps/getting-started/create) tutorial in our developer documentation will guide you through creating a Shopify app.
+Creates a function automatically makes "Free Ring Sizing Kit" product free when triggered, allowing it to be discounted to $0 without conflicting with other automatic/code discounts.
 
-This app template does little more than install the CLI and scaffold a repository.
+## Built With
+-TypeScript
+-JavaScript
+-Shopify API
+
 
 ## Getting started
 
@@ -76,3 +79,7 @@ Open the URL generated in your console. Once you grant permission to the app, yo
 - [App extensions](https://shopify.dev/docs/apps/build/app-extensions)
 - [Extension only apps](https://shopify.dev/docs/apps/build/app-extensions/build-extension-only-app)
 - [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
+
+## Contact
+Hannah Payne - hannah.payne140@gmail.com
+Project Link: https://github.com/hannahrpayne/free-ring-sizer-w-purchase.git
