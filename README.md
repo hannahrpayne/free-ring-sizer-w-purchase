@@ -1,13 +1,13 @@
-# Shopify Cart Transfrom App - Extension only
+# Shopify Cart Transform App - Extension only
 
-This is an extension based app with the prupose of transforming the cart when certain products are added. 
+This is an extension-based app with the purpose of transforming the cart when certain products are added. 
 
-This function is triggered when the [Free Ring Sizing Kit](https://stagheaddesigns.com/products/free-ring-sizing-kit) product is added to the cart with another product from the collection [Elligible For Free Ring Sizing Kit](https://stagheaddesigns.com/collections/elligible-for-free-ring-sizing-kit) pulled from the Shopify API.
+This function is triggered when the [Free Ring Sizing Kit](https://stagheaddesigns.com/products/free-ring-sizing-kit) product is added to the cart with another product from the collection [Eligible For Free Ring Sizing Kit](https://stagheaddesigns.com/collections/elligible-for-free-ring-sizing-kit) pulled from the Shopify API.
 
 
 ## Benefits
 
-Creates a function automatically makes "Free Ring Sizing Kit" product free when triggered, allowing it to be discounted to $0 without conflicting with other automatic/code discounts.
+Creates a function that automatically makes the "Free Ring Sizing Kit" product free when triggered, allowing it to be discounted to $0 without conflicting with other automatic/code discounts.
 
 ## Built With
 -TypeScript
